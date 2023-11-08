@@ -1,0 +1,22 @@
+.menu  {
+    display:flex;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+    .itemsMenu{
+        width: 70%;
+        display:flex;
+        justify-content:space-between;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Exo 2', sans-serif;
+                    li{
+                    list-style:none;
+                    text-transform:uppercase;
+                    cursor: pointer;
+                    a{
+                            color:white;
+                            text-decoration: none;
+                        }
+                }
+    }
+}

@@ -1,0 +1,36 @@
+.topbar{
+    background-color: red;
+    color: white;
+    display:flex;
+    height: 30px;
+    align-items: center;
+            .hightlight {
+                width: 70%;
+                margin-left: 30px;
+                font-family: 'Bebas Neue', sans-serif;
+                font-family: 'Exo 2', sans-serif;
+            }
+            .date {
+                width:30%;
+                text-align: right;
+                margin-right: 30px;
+                font-family: 'Bebas Neue', sans-serif;
+                font-family: 'Exo 2', sans-serif;
+            }
+}
+
+
+
+.logoCase {
+    background-color: black;
+    align-items: center;
+    .logo {
+        text-align: center;
+        padding: 25px;
+    }
+    .logoImage {
+        width: 700px;
+    }
+}
+
+

@@ -1,0 +1,40 @@
+.productContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+            .productCard {
+                width: 30%;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                margin: 10px;
+                margin-bottom: 45px;
+                border: 2px solid black;
+                border-radius: 13px;
+                    .imageProduct {
+                        width: 60%;
+                        height: 200px;
+                        padding:10px;
+                    }
+                    .productPrice{
+                        font-size: 1.5em;
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-family: 'Exo 2', sans-serif;
+                    }
+                    .productTitle{
+                        font-size: 1.5em;
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-family: 'Exo 2', sans-serif;
+                    }
+                    .productDescription {
+                        font-family: 'Bebas Neue', sans-serif;
+                        font-family: 'Exo 2', sans-serif;
+                        width:70%;
+                    }
+            }
+}
+
+
+
+
